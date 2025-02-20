@@ -1,0 +1,253 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ninak\\Desktop\\ISProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E09DA95F-CF57-43F3-9902-FE4B643E77AB}|EMS.Web\\EMS.Web.csproj|c:\\users\\ninak\\desktop\\isproject\\ems.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E09DA95F-CF57-43F3-9902-FE4B643E77AB}|EMS.Web\\EMS.Web.csproj|solutionrelative:ems.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF3496EE-A3C6-4AB8-B1FC-7D8A84C67AFC}|EMS.Repository\\EMS.Repository.csproj|c:\\users\\ninak\\desktop\\isproject\\ems.repository\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF3496EE-A3C6-4AB8-B1FC-7D8A84C67AFC}|EMS.Repository\\EMS.Repository.csproj|solutionrelative:ems.repository\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E09DA95F-CF57-43F3-9902-FE4B643E77AB}|EMS.Web\\EMS.Web.csproj|c:\\users\\ninak\\desktop\\isproject\\ems.web\\areas\\identity\\data\\identitydatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E09DA95F-CF57-43F3-9902-FE4B643E77AB}|EMS.Web\\EMS.Web.csproj|solutionrelative:ems.web\\areas\\identity\\data\\identitydatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E09DA95F-CF57-43F3-9902-FE4B643E77AB}|EMS.Web\\EMS.Web.csproj|c:\\users\\ninak\\desktop\\isproject\\ems.web\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E09DA95F-CF57-43F3-9902-FE4B643E77AB}|EMS.Web\\EMS.Web.csproj|solutionrelative:ems.web\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD0C396-FC06-49E1-9DB0-32CFCED7BD58}|EMS.Domain\\EMS.Domain.csproj|c:\\users\\ninak\\desktop\\isproject\\ems.domain\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD0C396-FC06-49E1-9DB0-32CFCED7BD58}|EMS.Domain\\EMS.Domain.csproj|solutionrelative:ems.domain\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF3496EE-A3C6-4AB8-B1FC-7D8A84C67AFC}|EMS.Repository\\EMS.Repository.csproj|c:\\users\\ninak\\desktop\\isproject\\ems.repository\\implementation\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF3496EE-A3C6-4AB8-B1FC-7D8A84C67AFC}|EMS.Repository\\EMS.Repository.csproj|solutionrelative:ems.repository\\implementation\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB0F70D9-966C-436E-AEAF-9EBE78D3B162}|EMS.Service\\EMS.Service.csproj|c:\\users\\ninak\\desktop\\isproject\\ems.service\\implementation\\ticketinorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB0F70D9-966C-436E-AEAF-9EBE78D3B162}|EMS.Service\\EMS.Service.csproj|solutionrelative:ems.service\\implementation\\ticketinorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E09DA95F-CF57-43F3-9902-FE4B643E77AB}|EMS.Web\\EMS.Web.csproj|c:\\users\\ninak\\desktop\\isproject\\ems.web\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E09DA95F-CF57-43F3-9902-FE4B643E77AB}|EMS.Web\\EMS.Web.csproj|solutionrelative:ems.web\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF3496EE-A3C6-4AB8-B1FC-7D8A84C67AFC}|EMS.Repository\\EMS.Repository.csproj|c:\\users\\ninak\\desktop\\isproject\\ems.repository\\implementation\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF3496EE-A3C6-4AB8-B1FC-7D8A84C67AFC}|EMS.Repository\\EMS.Repository.csproj|solutionrelative:ems.repository\\implementation\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB0F70D9-966C-436E-AEAF-9EBE78D3B162}|EMS.Service\\EMS.Service.csproj|c:\\users\\ninak\\desktop\\isproject\\ems.service\\implementation\\calendarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB0F70D9-966C-436E-AEAF-9EBE78D3B162}|EMS.Service\\EMS.Service.csproj|solutionrelative:ems.service\\implementation\\calendarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF3496EE-A3C6-4AB8-B1FC-7D8A84C67AFC}|EMS.Repository\\EMS.Repository.csproj|c:\\users\\ninak\\desktop\\isproject\\ems.repository\\implementation\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF3496EE-A3C6-4AB8-B1FC-7D8A84C67AFC}|EMS.Repository\\EMS.Repository.csproj|solutionrelative:ems.repository\\implementation\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E09DA95F-CF57-43F3-9902-FE4B643E77AB}|EMS.Web\\EMS.Web.csproj|c:\\users\\ninak\\desktop\\isproject\\ems.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E09DA95F-CF57-43F3-9902-FE4B643E77AB}|EMS.Web\\EMS.Web.csproj|solutionrelative:ems.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ninak\\Desktop\\ISProject\\EMS.Web\\Program.cs",
+              "RelativeDocumentMoniker": "EMS.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\ninak\\Desktop\\ISProject\\EMS.Web\\Program.cs",
+              "RelativeToolTip": "EMS.Web\\Program.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAUwD4AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T19:49:10.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IdentityDataContext.cs",
+              "DocumentMoniker": "C:\\Users\\ninak\\Desktop\\ISProject\\EMS.Web\\Areas\\Identity\\Data\\IdentityDataContext.cs",
+              "RelativeDocumentMoniker": "EMS.Web\\Areas\\Identity\\Data\\IdentityDataContext.cs",
+              "ToolTip": "C:\\Users\\ninak\\Desktop\\ISProject\\EMS.Web\\Areas\\Identity\\Data\\IdentityDataContext.cs",
+              "RelativeToolTip": "EMS.Web\\Areas\\Identity\\Data\\IdentityDataContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T19:48:22.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\ninak\\Desktop\\ISProject\\EMS.Domain\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "EMS.Domain\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\ninak\\Desktop\\ISProject\\EMS.Domain\\Models\\Order.cs",
+              "RelativeToolTip": "EMS.Domain\\Models\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T19:44:42.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "C:\\Users\\ninak\\Desktop\\ISProject\\EMS.Web\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "EMS.Web\\Controllers\\EventsController.cs",
+              "ToolTip": "C:\\Users\\ninak\\Desktop\\ISProject\\EMS.Web\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "EMS.Web\\Controllers\\EventsController.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAgwDwAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T19:40:12.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ninak\\Desktop\\ISProject\\EMS.Repository\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "EMS.Repository\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\ninak\\Desktop\\ISProject\\EMS.Repository\\ApplicationDbContext.cs",
+              "RelativeToolTip": "EMS.Repository\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T15:37:30.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\ninak\\Desktop\\ISProject\\EMS.Web\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "EMS.Web\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\ninak\\Desktop\\ISProject\\EMS.Web\\appsettings.Development.json",
+              "RelativeToolTip": "EMS.Web\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-20T19:48:02.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TicketInOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\ninak\\Desktop\\ISProject\\EMS.Service\\Implementation\\TicketInOrderService.cs",
+              "RelativeDocumentMoniker": "EMS.Service\\Implementation\\TicketInOrderService.cs",
+              "ToolTip": "C:\\Users\\ninak\\Desktop\\ISProject\\EMS.Service\\Implementation\\TicketInOrderService.cs",
+              "RelativeToolTip": "EMS.Service\\Implementation\\TicketInOrderService.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwCMAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T19:39:06.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\ninak\\Desktop\\ISProject\\EMS.Repository\\Implementation\\Repository.cs",
+              "RelativeDocumentMoniker": "EMS.Repository\\Implementation\\Repository.cs",
+              "ToolTip": "C:\\Users\\ninak\\Desktop\\ISProject\\EMS.Repository\\Implementation\\Repository.cs",
+              "RelativeToolTip": "EMS.Repository\\Implementation\\Repository.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAEwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T19:36:49.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ninak\\Desktop\\ISProject\\EMS.Repository\\Implementation\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "EMS.Repository\\Implementation\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\ninak\\Desktop\\ISProject\\EMS.Repository\\Implementation\\OrderRepository.cs",
+              "RelativeToolTip": "EMS.Repository\\Implementation\\OrderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T19:36:48.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CalendarService.cs",
+              "DocumentMoniker": "C:\\Users\\ninak\\Desktop\\ISProject\\EMS.Service\\Implementation\\CalendarService.cs",
+              "RelativeDocumentMoniker": "EMS.Service\\Implementation\\CalendarService.cs",
+              "ToolTip": "C:\\Users\\ninak\\Desktop\\ISProject\\EMS.Service\\Implementation\\CalendarService.cs",
+              "RelativeToolTip": "EMS.Service\\Implementation\\CalendarService.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAtwCAAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T15:52:07.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ninak\\Desktop\\ISProject\\EMS.Repository\\Implementation\\UserRepository.cs",
+              "RelativeDocumentMoniker": "EMS.Repository\\Implementation\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\ninak\\Desktop\\ISProject\\EMS.Repository\\Implementation\\UserRepository.cs",
+              "RelativeToolTip": "EMS.Repository\\Implementation\\UserRepository.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T15:41:04.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ninak\\Desktop\\ISProject\\EMS.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "EMS.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\ninak\\Desktop\\ISProject\\EMS.Web\\appsettings.json",
+              "RelativeToolTip": "EMS.Web\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-19T15:27:57.295Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
