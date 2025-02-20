@@ -1,0 +1,45 @@
+﻿@using EMS.Domain.Identity
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<EMSApplicationUser> SignInManager
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - EMS.Web</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/EMS.Web.styles.css" asp-append-version="true" />
+</head>
+<body>
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <div class="main-body">
+            <header class="main-header">
+                <nav class="main-navbar navbar navbar-expand-sm">
+                    <div class="container-fluid">
+                        <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                            <a class="main-navbar-brand" asp-area="" asp-controller="Home" asp-action="Index" style="color: black">Event Master</a>
+                            <partial name="_LoginPartial" />
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <br />
+            @RenderBody()
+        </div>
+    }
+    else
+    {
+        <div>
+            @RenderBody()
+        </div>
+    }
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

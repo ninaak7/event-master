@@ -1,0 +1,62 @@
+﻿@model Is_Project_Admin.Models.Book
+
+@{
+    ViewData["Title"] = "Details for Book";
+}
+
+<h1 class="text-center my-4">📖 Details for "@Model.BookName"</h1>
+
+<div class="container">
+    <div class="card shadow-lg p-4 rounded">
+        <div class="row">
+            <div class="col-md-6">
+                <h4 class="text-primary">📘 Book Information</h4>
+                <dl class="row">
+                    <dt class="col-sm-4">Title:</dt>
+                    <dd class="col-sm-8">@Model.BookName</dd>
+
+                    <dt class="col-sm-4">Description:</dt>
+                    <dd class="col-sm-8">@Model.BookDescription</dd>
+
+                    <dt class="col-sm-4">Price:</dt>
+                    <dd class="col-sm-8 fw-bold text-success">$@Model.Price</dd>
+
+                    <dt class="col-sm-4">Rating:</dt>
+                    <dd class="col-sm-8">⭐ @Model.Rating</dd>
+                </dl>
+            </div>
+
+            <div class="col-md-6 text-center">
+                <img src="@Model.BookImage" alt="Book Cover" class="img-fluid shadow rounded mb-3" style="max-width: 250px;">
+
+                <h5 class="text-secondary">✍️ Author: <span class="text-dark">@Model.Author.FullName</span></h5>
+                <h6 class="text-muted">🏢 Publisher: <span class="text-dark">@Model.Publisher.PublisherName</span></h6>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center mt-4">
+        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+    </div>
+</div>
+
+<style>
+    .card {
+        background: #fffaf3; 
+        border-radius: 12px;
+    }
+
+    dt {
+        font-weight: bold;
+        color: #444;
+    }
+
+    .btn-warning {
+        background-color: #ff9800;
+        border: none;
+    }
+
+        .btn-warning:hover {
+            background-color: #e68900;
+        }
+</style>

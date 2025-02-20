@@ -1,0 +1,20 @@
+﻿@page
+@model EMS.Web.Areas.Identity.Pages.Account.ConfirmEmailModel
+@{
+}
+
+<h1>@ViewData["Title"]</h1>
+<hr />
+
+@if (Model.Success)
+{
+    <div class="alert alert-success">
+        Your email has been confirmed. You can now <a asp-page="/Account/Login">log in</a>.
+    </div>
+}
+else
+{
+    <div class="alert alert-danger">
+        There was an error confirming your email. Please try again or contact support.
+    </div>
+}

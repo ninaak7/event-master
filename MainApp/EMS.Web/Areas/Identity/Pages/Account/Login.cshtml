@@ -1,0 +1,101 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Log in";
+}
+
+<div class="login-container">
+    <div class="login-box">
+        <h2 class="text-center">Welcome Back to EventMaster 🎉</h2>
+        <p class="text-center text-muted">Enter your credentials to access amazing events.</p>
+        <hr class="divider" />
+
+        <form id="account" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger text-center" role="alert"></div>
+
+            <div class="form-floating mb-3">
+                <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+                <label asp-for="Input.Email" class="form-label">Email</label>
+                <span asp-validation-for="Input.Email" ></span>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input asp-for="Input.Password" type="password" class="form-control" autocomplete="current-password" aria-required="true" placeholder="password" />
+                <label asp-for="Input.Password" class="form-label">Password</label>
+                <span asp-validation-for="Input.Password" ></span>
+            </div>
+
+            <div class="checkbox mb-3">
+                <label asp-for="Input.RememberMe" class="form-label">
+                    <input class="form-check-input" asp-for="Input.RememberMe" />
+                    @Html.DisplayNameFor(m => m.Input.RememberMe)
+                </label>
+            </div>
+
+            <div>
+                <button id="login-submit" type="submit" class="btn btn-lg event-btn w-100">Log in</button>
+            </div>
+
+            <div class="text-center mt-3">
+                <p>Don't have an account? <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl" class="signup-link">Sign up</a></p>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+<style>
+    body {
+        background: #f8f9fa;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .login-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .login-box {
+        background: white;
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .form-control {
+        border-radius: 8px;
+    }
+
+    .event-btn {
+        background-color: #218838;
+        color: white;
+        border-radius: 8px;
+        transition: 0.3s ease-in-out;
+    }
+
+        .event-btn:hover {
+            background-color: #19692c;
+        }
+
+    
+
+        .signup-link:hover {
+            color: #19692c;
+            text-decoration: none;
+        }
+
+    .divider {
+        border: 0;
+        height: 2px;
+        background: linear-gradient(to right, transparent, #218838, transparent);
+        margin-bottom: 20px;
+    }
+</style>

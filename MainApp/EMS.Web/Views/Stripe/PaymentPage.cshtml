@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Payment Page";
+    var totalPrice = ViewBag.TotalPrice;
+    var userMail = ViewBag.Email;
+}
+
+@* <h1 style="text-align:center">Pay with Card</h1> *@
+@* <p style="text-align:center">Order Payment: $@totalPrice</p> *@
+
+<h1 style="text-align:center">Redirecting to checkout</h1>
+
+<form method="post" id="my_form" action="@Url.Action("CreatePaymentSession", "Stripe")">
+    <input type="hidden" name="email" value="@userMail" />
+    <input type="hidden" name="totalPrice" value="@totalPrice" />
+</form>
+
+<script>
+    document.getElementById("my_form").submit(); // Automatically submits the form
+</script>
+
+<style>
+    form {
+        max-width: 400px;
+        margin: auto;
+    }
+    input, button {
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+    }
+</style>

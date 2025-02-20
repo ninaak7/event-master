@@ -1,0 +1,96 @@
+﻿@using System.Security.Claims
+@model IEnumerable<EMS.Domain.Models.Event>
+
+@{
+    ViewData["Title"] = "All Events";
+}
+
+<h1 style="text-align: center; font-weight: bold; color: black; margin-bottom: 20px;">All Events</h1>
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger" style="background-color: #f8d7da; color: #721c24; text-align: center;">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<p style="text-align: right; margin-bottom: 2rem; margin-right: 5rem">
+    <a asp-action="Create" class="btn btn-secondary" style=" color: white; border-radius: 8px; padding: 10px 20px;">Create Event</a>
+    <a asp-controller="Tickets" asp-action="Create" class="btn btn-secondary" style="background-color: #6c757d; color: white; border-radius: 8px; padding: 10px 20px; margin-left: 10px;">Create Ticket</a>
+</p>
+<table class="table">
+
+    <tbody>
+@foreach (var item in Model) {
+            <div class="event-index-container">
+                <div class="event-card">
+                    <div class="col-3">
+                        <img src="@Html.DisplayFor(modelItem => item.ImageUrl)" class="" alt="Event Image">
+                    </div>
+                    <div class="col-md-5">
+                        <div class="card-body">
+                            <h2 class="card-title fw-bold">@Html.DisplayFor(modelItem => item.Name)</h2>
+                            <p class="card-title fw-bold">@Html.DisplayFor(modelItem => item.Type)</p>
+                            <br />
+                            <p class="card-text text-muted">
+                                @{
+                                    string dateOnly = item.DateTime.ToString("dd.MM.yyyy");
+                                }
+                                @dateOnly
+                            </p>
+                            <p class="card-text ">
+                                📍 @Html.DisplayFor(modelItem => item.Location)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 d-flex flex-column justify-content-center align-items-center p-3">
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-warning w-100 mb-2 text-white">Details</a>
+                        @if (item.CreatedBy != null && item.CreatedBy.Equals(User.FindFirstValue(ClaimTypes.NameIdentifier)))
+                        {
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger w-100 mb-2">Delete</a>
+                        }
+                    </div>
+                </div>
+            </div>
+}
+    </tbody>
+</table>
+
+<style>
+    .event-card {
+        height: 100%;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        border-radius: 9px;
+        --bs-gutter-x: 0;
+        width: 100%;
+        grid-gap: 0;
+        width: 100%;
+    }
+
+        .event-card img {
+            height: 100%;
+            object-fit: cover;
+            width: 100%;
+        }
+
+    .events-index-div {
+        display: block;
+        max-width: 70%;
+        margin: auto;
+        padding: 10px;
+        min-height: 100vh;
+        margin-top: 70px;
+        overflow-y: auto;
+        height: calc(100vh - 70px);
+    }
+
+    .event-index-container {
+        width: 91.66666667%;
+        margin-bottom: 4rem;
+        margin: auto;
+        margin-bottom: 1.5rem;
+    }
+</style>
